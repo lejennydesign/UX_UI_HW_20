@@ -1,0 +1,165 @@
+/* HEADER */
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  a:link {
+      color: black;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    a:visited {
+      text-decoration: none;
+    }
+    
+    .nav {
+        display: flex;
+        max-height: 100px;
+        flex-direction: row;
+    }
+
+    ul {
+        margin-top: 10px;
+        padding-top: 10px;
+        padding: 20px;
+        display: flex;
+        justify-self: flex-end;
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+    
+    li {
+        font-family: Inter, sans-serif;
+        list-style: none;
+        padding: 5px 20px;
+        display: inline;
+
+    }
+    
+    .logo {
+      max-width: 60px;
+      width: 100%;
+      height: auto;
+      margin-left: 20px;
+    }
+    
+    .inline-block {
+      display: inline-block;
+      background-color: white;
+      padding: 15px;
+      width: 75px;
+      text-align: center;
+    }
+    
+    .header {
+      text-align: right;
+      background-color: white;
+      padding: 20px;
+      font-family: Inter, sans-serif;
+      font-size: 16px;
+    }
+    
+    
+/* STYLING */
+
+.heading1 {
+    font-family: Inter, sans-serif;
+    font-weight: Bold;
+    font-size: 36px;
+    }
+
+.heading2 {
+    font-family: Inter, sans-serif;
+    font-weight: Bold;
+    font-size: 24px;
+    }    
+
+.heading3 {
+    font-family: Inter, sans-serif;
+    font-weight: Bold;
+    font-size: 18px;
+    }
+    
+  
+    p {
+      font-size: 18px;
+      font-kerning: 10px;
+      margin-bottom: 25px;
+    }
+    
+    .left {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      background-color: #D9D9D9;
+      border-radius: 10px;
+      display: flex;
+    }
+    
+    img {
+      max-width: 500px;
+      height: auto;
+      object-fit: cover;
+      display: flex;
+      border-radius: 15px;
+    }
+    
+    
+/* Navigation */
+    
+    a:link {
+      color: black;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    a:visited {
+      text-decoration: none;
+    }
+    
+
+/* Case Study */
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 50px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    }
+    
+    #divider {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+  
+/* Media Queries for Mobile, etc. */
+  
+@media only screen and (max-width:600px){
+    
+
+}
+
+    
